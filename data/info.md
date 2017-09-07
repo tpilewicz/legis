@@ -1,6 +1,8 @@
 
 <h1>Description du jeu de données</h1>
 
+Le csv final à utiliser est merge.csv. Il contient également les résultats de 2017.
+
 Chaque observation représente une des 577 circonscriptions une année donnée. En 2010, les circonscriptions législatives ont été redécoupées, et un couple département circonscription ne représente pas toujours le même endroit avant et après ce redécoupage. C'est pourquoi nous n'utiliserons pas les variables catégorielles indiquant département et circonscription dans la prédiction des scores de législatives.
 Liées à chaque circonscription et pour chaque année, nous avons des variables d'entrée qui sont soit des scores de présidentielles, soit des données sociodémographiques. Malheureusement il n'est possible d'obtenir ces données qu'au niveau départemental.
 Enfin les variables à prédire sont des scores de premier tour des législatives, cette fois bel et bien au niveau de la circonscription. Pour des modèles de classification, on aggrègera les scores en une variable catégorielle qui représente le groupe politique ayant rassemblé le plus de voix pour chaque circonscription.
