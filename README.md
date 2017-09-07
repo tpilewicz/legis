@@ -1,2 +1,2 @@
 # legis
-Modèle amateur de prédiction des législatives françaises à partir des présidentielles.
+Projet étudiant de prédiction des législatives françaises à partir des présidentielles.
