@@ -33,4 +33,6 @@ Les variables :
 
 <h2>Variables de sortie</h2>
 
+(l_...)
+
 Les variables à prédire sont des scores de législatives - au niveau circonscription cette fois - aggrégés des 6 groupes politiques que nous avons dessiné : Centre (C), Droite (D), Extrême-Droite (ED), Gauche (G), Extrême-Gauche (EG), autres. Les partis représentés sont plus nombreux au moment des législatives. Là aussi, il est possible de consulter l'attribution que nous avons fait de chaque parti à chaque groupe politique.
