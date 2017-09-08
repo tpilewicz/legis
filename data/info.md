@@ -42,4 +42,4 @@ Les variables à prédire sont des scores de législatives - au niveau circonscr
 <h2>Sources</h2>
 
 Les données sociodémographiques ont été téléchargées sur le site de l'INSEE.
-Un petit script de scraping nous a permis de collecter les données de scores de présidentielles et de législatives.
+Un petit script de scraping nous a permis de collecter les données de scores de présidentielles et de législatives sur le site du ministère de l'intérieur.
