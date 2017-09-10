@@ -31,13 +31,13 @@ Les variables :
 
 - rev : revenu moyen dans le département.
 
-- presid_... : ces variables contiennent les scores - au niveau départemental - aggrégés des 6 groupes politiques que nous avons dessiné : Centre (C), Droite (D), Extrême-Droite (ED), Gauche (G), Extrême-Gauche (EG), autres. L'attachement d'un candidat à un groupe politique a été déduit du parti pour lequel il se présentait. Pour consulter la façon dont nous avons fait le lien entre parti et groupe politique : data/attribution_groupes. Comme la logique de ce projet est de prédire des scores de législatives à partir des présidentielles les précédant, les lignes dont l'année est 1993 contiennent en réalité les scores de présidentielle de 88, les lignes dont l'année est 1997 contiennent en réalité les scores de présidentielles de 95.
+- presid_... : ces variables contiennent les scores - au niveau départemental - aggrégés des 6 groupes politiques que nous avons dessiné : Centre (C), Droite (D), Extrême-Droite (ED), Gauche (G), Extrême-Gauche (EG), autres. L'attachement d'un candidat à un groupe politique a été déduit du parti pour lequel il se présentait. Pour consulter la façon dont nous avons fait le lien entre parti et groupe politique : data/attribution_groupes/presid. Voir le notebook python. Comme la logique de ce projet est de prédire des scores de législatives à partir des présidentielles les précédant, les lignes dont l'année est 1993 contiennent en réalité les scores de présidentielle de 88, les lignes dont l'année est 1997 contiennent en réalité les scores de présidentielles de 95.
 
 <h2>Variables de sortie</h2>
 
 (l_...)
 
-Les variables à prédire sont des scores de législatives - au niveau circonscription cette fois - aggrégés des 6 groupes politiques que nous avons dessiné : Centre (C), Droite (D), Extrême-Droite (ED), Gauche (G), Extrême-Gauche (EG), autres. Les partis représentés sont plus nombreux au moment des législatives. Là aussi, il est possible de consulter l'attribution que nous avons fait de chaque parti à chaque groupe politique grâce au dossier attribution_groupes.
+Les variables à prédire sont des scores de législatives - au niveau circonscription cette fois - aggrégés des 6 groupes politiques que nous avons dessiné : Centre (C), Droite (D), Extrême-Droite (ED), Gauche (G), Extrême-Gauche (EG), autres. Les partis représentés sont plus nombreux au moment des législatives. Là aussi, il est possible de consulter l'attribution que nous avons fait de chaque parti à chaque groupe politique grâce aux notebooks python du dossier attribution_groupes/legis.
 
 <h2>Sources</h2>
 
