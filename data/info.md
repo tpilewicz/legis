@@ -21,7 +21,7 @@ Les variables :
 
 - dens : densité de population du département.
 
-- age_1, age_2, age_3, age_4 : proportion de chaque tranche d'âge dans la population du département. La tranche 1 correspond aux 0-20 ans, la tranche 2 20-40 ans, puis 40-60 ans puis 60 ans et plus.
+- age\_1, age\_2, age\_3, age\_4 : proportion de chaque tranche d'âge dans la population du département. La tranche 1 correspond aux 0-20 ans, la tranche 2 20-40 ans, puis 40-60 ans puis 60 ans et plus.
 
 - etud : proportion d'étudiants dans la population du département
 
@@ -29,15 +29,15 @@ Les variables :
 
 - chom : taux de chômage dans le département.
 
-- rev : revenu moyen dans le département.
-
-- presid_... : ces variables contiennent les scores - au niveau départemental - aggrégés des 6 groupes politiques que nous avons dessiné : Centre (C), Droite (D), Extrême-Droite (ED), Gauche (G), Extrême-Gauche (EG), autres. L'attachement d'un candidat à un groupe politique a été déduit du parti pour lequel il se présentait. Pour consulter la façon dont nous avons fait le lien entre parti et groupe politique : data/attribution_groupes/presid. Voir le notebook python. Comme la logique de ce projet est de prédire des scores de législatives à partir des présidentielles les précédant, les lignes dont l'année est 1993 contiennent en réalité les scores de présidentielle de 88, les lignes dont l'année est 1997 contiennent en réalité les scores de présidentielles de 95.
+- presid\_... : ces variables contiennent les scores __au premier tour__ des présidentielles - au niveau départemental - aggrégés des 6 groupes politiques que nous avons dessiné : Centre (C), Droite (D), Extrême-Droite (ED), Gauche (G), Extrême-Gauche (EG), autres. L'attachement d'un candidat à un groupe politique a été déduit du parti pour lequel il se présentait. Pour consulter la façon dont nous avons fait le lien entre parti et groupe politique : data/attribution_groupes/presid. Voir le notebook python. Comme la logique de ce projet est de prédire des scores de législatives à partir des présidentielles les précédant, les lignes dont l'année est 1993 contiennent en réalité les scores de présidentielle de 88, les lignes dont l'année est 1997 contiennent en réalité les scores de présidentielles de 95.
+__/!\ Attention :__ souvent par abus de langage, on dira que tel groupe politique est "arrivé premier" à la présidentielle d'une certaine année dans un certain département. Les guillemets sont importants, et on voudra en réalité dire qu'il est arrivé premier au premier tour.
 
 <h2>Variables de sortie</h2>
 
-(l_...)
+(l\_...)
 
-Les variables à prédire sont des scores de législatives - au niveau circonscription cette fois - aggrégés des 6 groupes politiques que nous avons dessiné : Centre (C), Droite (D), Extrême-Droite (ED), Gauche (G), Extrême-Gauche (EG), autres. Les partis représentés sont plus nombreux au moment des législatives. Là aussi, il est possible de consulter l'attribution que nous avons fait de chaque parti à chaque groupe politique grâce aux notebooks python du dossier attribution_groupes/legis.
+Les variables à prédire sont des scores du __premier tour__ des législatives - au niveau circonscription cette fois - aggrégés des 6 groupes politiques que nous avons dessiné : Centre (C), Droite (D), Extrême-Droite (ED), Gauche (G), Extrême-Gauche (EG), autres. Les partis représentés sont plus nombreux au moment des législatives. Là aussi, il est possible de consulter l'attribution que nous avons fait de chaque parti à chaque groupe politique grâce aux notebooks python du dossier attribution_groupes/legis.
+__/!\ Attention :__ souvent par abus de langage, on dira que tel groupe politique "remporte" une circonscription. Les guillemets ne sont pas là pour rien, et lorsqu'on écrit ce genre de choses, cela signifie en réalité que le groupe politique en question arrive premier au premier tour des législatives.
 
 <h2>Sources</h2>
 
